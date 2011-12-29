@@ -3,9 +3,9 @@
 
 概述
 ----
-作者：cynic (<http://ninehills.github.com>)
+作者：Tao Yang (<http://ninehills.github.com>)
 
-原始项目：<https://code.google.com/p/flower-password/>
+原始项目：徐小花 kisexu(at)gmail.com <https://code.google.com/p/flower-password/>
 
 项目依赖
 --------

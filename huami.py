@@ -1,7 +1,8 @@
 #!/usr/bin/env python2
 # coding=utf8
 # Huami CLI Version.
-# Author: cynic (ninehills.github.com)
+# Author: Tao Yang (ninehills.github.com)
+# Origin: https://code.google.com/p/flower-password/
 # Usage: huami.py PASSWORD KEY
 import sys
 import hmac
