@@ -14,7 +14,7 @@
 使用方法
 --------
 
-    $ huami PASSWORD KEY
+    $ ./huami.py PASSWORD KEY
 
 授权协议
 --------
