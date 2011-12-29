@@ -14,7 +14,13 @@
 使用方法
 --------
 
-    $ ./huami.py PASSWORD KEY
+    ./huami.py PASSWORD KEY
+
+可以结合xclip，比如
+
+    ./huami.py PASSWORD KEY | xclip -i
+
+便可将密码复制到X剪切板。
 
 授权协议
 --------
