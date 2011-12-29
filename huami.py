@@ -3,7 +3,7 @@
 # Huami CLI Version.
 # Author: Tao Yang (ninehills.github.com)
 # Origin: https://code.google.com/p/flower-password/
-# Usage: huami.py PASSWORD KEY
+# Usage: huami.py KEY
 import sys
 import hmac
 
@@ -34,8 +34,10 @@ def huami(password, key):
     return code16
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        help_str =  "Usage: %s PASSWORD KEY\n" %(sys.argv[0])
+    if len(sys.argv) != 2:
+        help_str =  "Usage: %s KEY\n" %(sys.argv[0])
         sys.stderr.write(help_str)
         sys.exit(1)
-    print huami(sys.argv[1], sys.argv[2])
+    import getpass
+    password = getpass.getpass("Password:")
+    print huami(password, sys.argv[1])
