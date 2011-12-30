@@ -11,6 +11,7 @@ STR1 = "snow"
 STR2 = "kise"
 STR3 = "sunlovesnow1990090127xykab"
 
+
 def huami(password, key):
     """计算花密密码
     """
@@ -24,7 +25,7 @@ def huami(password, key):
     source = list(md5two)
     for i in range(1, 31):
         if rule[i] in STR3:
-            source[i] = source[i].upper();
+            source[i] = source[i].upper()
     #code32 = ''.join(source)
     #保证密码首字母为字母---why?
     if source[0].isdigit():
@@ -35,7 +36,7 @@ def huami(password, key):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        help_str =  "Usage: %s KEY\n" %(sys.argv[0])
+        help_str = "Usage: %s KEY\n" % (sys.argv[0])
         sys.stderr.write(help_str)
         sys.exit(1)
     import getpass
