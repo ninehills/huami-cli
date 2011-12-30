@@ -23,7 +23,7 @@ def huami(password, key):
     # 转换大小写
     rule = list(md5three)
     source = list(md5two)
-    for i in range(1, 31):
+    for i in range(0, 32):
         if rule[i] in STR3:
             source[i] = source[i].upper()
     #code32 = ''.join(source)
