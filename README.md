@@ -7,6 +7,11 @@
 
 原始项目：徐小花 kisexu(at)gmail.com <https://code.google.com/p/flower-password/>
 
+本项目和huami官方的名词对应：
+
+* Key -> 网站代号
+* Password -> 记忆密码
+
 项目依赖
 --------
 * Python 2.x
